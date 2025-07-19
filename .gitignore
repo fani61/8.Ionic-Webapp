@@ -1,0 +1,12 @@
+# Node.js
+Nodejs-backend/node_modules/
+
+# Angular
+Angular-Ionic-frontend/node_modules/
+Angular-Ionic-frontend/dist/
+
+# OS files
+.DS_Store
+
+# Environment files
+.env
