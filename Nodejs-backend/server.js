@@ -3,7 +3,7 @@ const dotenv = require('dotenv').config();
 const mongoose = require('mongoose');
 const cors = require('cors')
 
-mongoose.connect('mongodb+srv://farhanghafoor61:dbudi8G52iZWWSJg@cluster0.gvqgz3h.mongodb.net/8_ionic-first-app');
+mongoose.connect(process.env.mongoConnection);
 
 const app = express();
 
