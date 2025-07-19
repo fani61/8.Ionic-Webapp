@@ -28,6 +28,7 @@ jobs:
           cd Nodejs-backend
           npm install
           npm run build --if-present
+          npm start
 
       - name: Zip artifact for deployment
         run: cd Nodejs-backend && zip -r ../release.zip ./* -r
